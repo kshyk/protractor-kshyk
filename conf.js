@@ -5,7 +5,7 @@ exports.config = {
 	capabilities: {
     	browserName: 'chrome',
 		chromeOptions: {
-			args: ['disable-infobars']
+			args: ['disable-infobars', 'start-maximized']
 	    }
   	}
 }
