@@ -10,7 +10,7 @@ let InterestsPage = function () {
 
     this.setXBox = () => clickOnElement(xboxRadioButton);
     this.setPS4 = () => clickOnElement(psRadioButton);
-    let clickOnElement = element => browser.wait(EC.elementToBeClickable(element, timeout)).then(() => element.click());
+    let clickOnElement = (element) => browser.wait(EC.elementToBeClickable(element, timeout)).then(() => element.click());
 
     this.clickOnNextSectionButton = () => nextSectionButton.click();
 };
