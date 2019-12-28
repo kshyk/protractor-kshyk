@@ -1,8 +1,8 @@
 let HomePage = function() {
 
-    let greenButton = $('.paj-click');
+    let greenButton = $(".paj-click");
 
-    this.get = () => browser.get('https://www.pajacyk.pl');
+    this.get = () => browser.get("https://www.pajacyk.pl");
 
     this.clickOnBelly = () => greenButton.click();
     
