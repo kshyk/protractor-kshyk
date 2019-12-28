@@ -7,11 +7,7 @@ exports.config = {
 		shardTestFiles: true,
 		maxInstances: 5,
 		chromeOptions: {
-			args: ["--disable-infobars",
-				   "--disable-gpu",
-				   "--disable-dev-shm-usage",
-				   "--start-maximized",
-				   "--no-sandbox"]
-	    }
-  	}
+			args: ["--disable-infobars", "--disable-gpu", "--disable-dev-shm-usage", "--start-maximized", "--no-sandbox"]
+		}
+	}
 }
