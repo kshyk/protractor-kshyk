@@ -1,0 +1,22 @@
+{
+  "name": "protractor-kshyk",
+  "description": "repository made for a protractor (webdriverjs) basics",
+  "author": {
+    "name": "Jakub Turkiewicz",
+    "email": "jj.turkiewicz@gmail.com",
+    "url": "https://github.com/kshyk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kshyk/protractor-kshyk"
+  },
+  "private": false,
+  "scripts": {
+    "test": ""
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.5.10",
+    "@types/node": "^13.13.4",
+    "protractor": "^5.4.4"
+  }
+}
