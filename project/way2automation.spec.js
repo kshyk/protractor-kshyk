@@ -4,9 +4,8 @@ let interestsPage = require("./page-objects/way2automation/multi-form/InterestsP
 let paymentPage = require("./page-objects/way2automation/multi-form/PaymentPage");
 
 describe("multi form filler", function () {
-
     it("should be able to fill multi step form", function () {
-        profilePage.get();
+        profilePage.getPage();
 
         profilePage.setName("Kshyk");
         profilePage.setEmail("temp@example.com");
@@ -21,5 +20,4 @@ describe("multi form filler", function () {
         browser.wait(EC.alertIsPresent(), 5000);
         expect(browser.switchTo().alert().getText()).toEqual("awesome!");
     });
-
 });
