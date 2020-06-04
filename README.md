@@ -10,4 +10,4 @@
 <br />
 [![ForTheBadge powered-by-electricity](http://ForTheBadge.com/images/badges/powered-by-electricity.svg)](http://ForTheBadge.com)
 
-repository made for a protractor (webdriverjs) basics
+repository made for a protractor basics
