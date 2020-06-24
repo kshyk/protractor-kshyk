@@ -2,7 +2,7 @@ os: linux
 dist: xenial
 language: node_js
 node_js:
-  - '8'
+  - node
 cache:
   timeout: 30 # default value is 3 minutes
   directories:
