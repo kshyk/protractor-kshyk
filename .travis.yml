@@ -14,9 +14,11 @@ before_script:
   - npm i git+https://github.com/jasmine/jasmine.git
   - npm i protractor
   - webdriver-manager update
-  - webdriver-manager start
+  - webdriver-manager start --detach
 jobs:
   include:
     - stage: "Tests"
       name: "GUI Tests"
       script: protractor project/conf.js
+after_script:
+  - webdriver-manager shutdown
