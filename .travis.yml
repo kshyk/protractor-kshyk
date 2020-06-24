@@ -11,4 +11,12 @@ services:
 addons:
   chrome: stable
 before_script:
-  - npm install git+https://github.com/jasmine/jasmine.git
+  - npm i git+https://github.com/jasmine/jasmine.git
+  - npm i protractor
+  - webdriver-manager update
+  - webdriver-manager start
+jobs:
+  include:
+    - stage: "Tests"
+      name: "GUI Tests"
+      script: protractor project/conf.js
